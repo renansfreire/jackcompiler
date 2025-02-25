@@ -4,22 +4,18 @@ import java.util.List;
 import java.util.Map;
 
 public enum TokenType {
-    PLUS,MINUS,
+    PLUS, MINUS, EQ, SEMICOLON,
 
      // Literals.
      NUMBER,
      STRING,
-
-
      IDENT,
-
  
      // keywords
-     METHOD,
-     WHILE,
-     IF,
-     CLASS,
-     CONSTRUCTOR,
+     WHILE, CLASS,CONSTRUCTOR,FUNCTION,
+     METHOD,FIELD,STATIC,VAR,INT,
+     CHAR,BOOLEAN,VOID,TRUE,FALSE,
+     NULL,THIS,LET,DO,IF,ELSE, RETURN,
 
      EOF,
 
